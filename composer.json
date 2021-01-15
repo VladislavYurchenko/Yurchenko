@@ -1,0 +1,12 @@
+{
+    "name": "vladislavyurchenko/yurchenko",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yurchenko Vladislav",
+            "email": "yurchenko.vlad.v@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
