@@ -10,7 +10,7 @@ class Line implements EquationInterface
         if($a==0){
            throw new YurchenkoException("Ошибка: уравнения не существует.");
         }
-        \Yurchenko\MyLog::log("Определено, что это линейное уравнение");
+        \yurchenko\MyLog::log("Определено, что это линейное уравнение");
         $x = -$b/$a;
         $this->x = $x;
         return [$x];

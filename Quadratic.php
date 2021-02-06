@@ -19,7 +19,7 @@ namespace yurchenko;
              $this->x = $x1;
              return [$x1];
          }
-         \Yurchenko\MyLog::log("Определено, что это квадратное уравнение");
+         \yurchenko\MyLog::log("Определено, что это квадратное уравнение");
         $this->x = array($x1,$x2);
         return  array($x1,$x2);
          
